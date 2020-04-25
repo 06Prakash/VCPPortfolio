@@ -8,7 +8,8 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-social-icons": "^4.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,5 +34,9 @@
   },
   "devDependencies": {
     "react-social-icons": "^4.1.0"
+  },
+  "engines": {
+    "npm": "6.13.4",
+    "node": "12.14.1"
   }
 }
