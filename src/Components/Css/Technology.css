@@ -1,0 +1,27 @@
+.leftMarginDivs{
+    margin-left: 20%;
+}
+
+.ContainerClass{
+    background-color: cadetblue;
+}
+
+h2{
+    padding-left: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkblue;
+}
+h3{
+    text-align: center;   
+}
+
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: initial;
+    padding-left: 10 px;
+    align-self: center;
+}
+
+.first_div{
+    padding-left: 5%;
+}

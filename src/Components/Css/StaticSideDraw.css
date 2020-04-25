@@ -1,0 +1,5 @@
+.board {
+    background-color: aqua;
+    width: 20em;
+    display: inline-block;
+}
