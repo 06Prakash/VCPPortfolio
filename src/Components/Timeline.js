@@ -18,7 +18,7 @@ const Timeline = () => (
                                                 <i className="icon-pen2" />
                                             </div>
                                             <div className="timeline-label">
-                                                <h2>Senior Software Engineer in Test<span> 2017-present</span></h2>
+                                                <h3>Senior Software Engineer in Test<span> 2017-present</span></h3>
                                                 <p>Currently, I joined as SDET and got promoted to SDET-2 at Integra Connect. I worked in different projects like PMS, Oncology, Automation Testing & Performance Testing. Here I also developed lot of tools for reducing manual works and improved productivity.</p>
                                             </div>
                                         </div>
@@ -29,8 +29,8 @@ const Timeline = () => (
                                                 <i className="icon-pen2" />
                                             </div>
                                             <div className="timeline-label">
-                                                <h2>Software Engineer in Test - Athena Health Care <span>2015-2017</span></h2>
-                                                <p>In 2013, I joined as an intern for 3 months and after that I become a permanent employee. Here we worked in both manual and automation, used perl, ruby and java. Developed an ETL framework from scratch.</p>
+                                                <h3>Software Engineer in Test - Athena Health Care <span>2015-2017</span></h3>
+                                                <p>In 2015, I joined as an intern for 3 months and after that I become a permanent employee. Here we worked in both manual and automation, used perl, ruby and java. Developed an ETL framework from scratch.</p>
                                             </div>
                                         </div>
                                     </article>
@@ -40,7 +40,29 @@ const Timeline = () => (
                                                 <i className="icon-pen2" />
                                             </div>
                                             <div className="timeline-label">
-                                                <h2>BE graduation at KLNCE <span>2009-2013</span></h2>
+                                                <h3>Electro Technical Officer <span>2014-2015</span></h3>
+                                                <p>I worked as an Electro Technical Officer Training for Merchant Navy in Chief Ahmed Ship in Gulf region. Took care of navigation system and maintaining electrical sensors in ship</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                                        <div className="timeline-entry-inner">
+                                            <div className="timeline-icon color-3">
+                                                <i className="icon-pen2" />
+                                            </div>
+                                            <div className="timeline-label">
+                                                <h3>ETO Training <span>2013-2014</span></h3>
+                                                <p>I did my Electro Technical Officer Training for Merchant Navy in BP Marine Academy and stood first in the order of merit.</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                                        <div className="timeline-entry-inner">
+                                            <div className="timeline-icon color-3">
+                                                <i className="icon-pen2" />
+                                            </div>
+                                            <div className="timeline-label">
+                                                <h3>BE graduation at KLNCE <span>2009-2013</span></h3>
                                                 <p>I did my BE-graduation studies with major in EEE (Electrical and Electronics Engineering) in KLN College of Engineering with University Rank Holding. I was an active participated in lot of programming related projects and competitions and also completed 3 diplomas in parallel with BE degree.</p>
                                             </div>
                                         </div>
@@ -51,7 +73,7 @@ const Timeline = () => (
                                                 <i className="icon-pen2" />
                                             </div>
                                             <div className="timeline-label">
-                                                <h2>Higher & Secondary Education <span>2007-2009</span></h2>
+                                                <h3>Higher & Secondary Education <span>2007-2009</span></h3>
                                                 <p>I have completed my higher secondary education with major subjects as Physics, Chemistry Maths & Biology with 92 percent.</p>
                                             </div>
                                         </div>
