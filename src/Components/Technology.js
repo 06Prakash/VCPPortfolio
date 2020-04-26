@@ -39,7 +39,7 @@ const Technology = () => (
             <h2><b>Certifications</b></h2>
             <div className="child_div2">
                 <ul>
-                    <li>OCJP 6 : Oracle Java Professional 6 Certificate</li>
+                    <li style={{paddingTop: "15px"}}>OCJP 6 : Oracle Java Professional 6 Certificate</li>
                     <li>IBM DB2 Academic Associate : DB2 Database and Application Fundamentals</li>
                     <li>Master Diploma In Computer Administration</li>
                     <li>Honours Diploma In Computer Hardware And Networking</li>
