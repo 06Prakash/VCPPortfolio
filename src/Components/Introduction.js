@@ -43,8 +43,8 @@ const Introduction = () => {
                     <div className="col-md-12 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1 style={{color: 'white'}}>Creativity is contagious pass it on!!</h1>
-                          <p><a className="btn btn-danger" href="https://www.udemy.com/user/chandra-prakash-v/" target="_blank" rel="noopener noreferrer">View Instructor Account <FaBriefcase /></a></p>
+                          <h1 style={{color: 'white'}}>Creativity is contagious<br/> pass it on!!</h1>
+                          <p><a className="btn btn-danger" href="https://www.udemy.com/user/chandra-prakash-v/" target="_blank" rel="noopener noreferrer">Guiding World <FaBriefcase /></a></p>
                         </div>
                       </div>
                     </div>
