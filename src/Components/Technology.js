@@ -36,7 +36,7 @@ const Technology = () => (
                 </ul>
             </div>
             </div>
-            <h2 style={{marginTop: "20px", marginLeft: "5%"}}><b>Certifications</b></h2>
+            <h2><b>Certifications</b></h2>
             <div className="child_div2">
                 <ul>
                     <li>OCJP 6 : Oracle Java Professional 6 Certificate</li>

@@ -7,12 +7,12 @@
 }
 
 h2{
-    padding-left: 150px;
+    text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: darkblue;
+    width: 50%
 }
 h3{
-    text-align: center;   
+    text-align: center;
 }
 
 li{
