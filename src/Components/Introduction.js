@@ -1,4 +1,5 @@
 import React from "react"
+import { FaDownload, FaBriefcase } from "react-icons/fa"
 
 const Introduction = () => {
     return (
@@ -14,7 +15,7 @@ const Introduction = () => {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1 style={{color: 'white'}}>Hi! This is <br />Chandra Prakash V</h1>
-                          <a className="btn btn-danger" href="https://drive.google.com/file/d/0B0Rrhy9iBAsASEF5aVR5UHllbGRKMFpmQnVhMmFRTUszOUMw/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a>
+                          <a className="btn btn-danger" href="https://drive.google.com/file/d/0B0Rrhy9iBAsASEF5aVR5UHllbGRKMFpmQnVhMmFRTUszOUMw/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV <FaDownload/></a>
                         </div>
                       </div>
                     </div>
@@ -43,7 +44,7 @@ const Introduction = () => {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1 style={{color: 'white'}}>Creativity is contagious pass it on!!</h1>
-                          <p><a className="btn btn-danger" href="https://www.udemy.com/user/chandra-prakash-v/" target="_blank" rel="noopener noreferrer">View Instructor Account<i className="icon-briefcase3" /></a></p>
+                          <p><a className="btn btn-danger" href="https://www.udemy.com/user/chandra-prakash-v/" target="_blank" rel="noopener noreferrer">View Instructor Account <FaBriefcase /></a></p>
                         </div>
                       </div>
                     </div>

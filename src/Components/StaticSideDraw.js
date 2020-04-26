@@ -1,16 +1,17 @@
 import React from 'react';
 import "./Css/StaticSideDraw.css"
 import { SocialIcon } from 'react-social-icons';
+import { FaMailBulk } from "react-icons/fa"
 
 const StaticSideDraw = () => (
     <div className="board">
         <div className="sidebarparent">
             <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
-            <aside id="colorlib-aside" className="border js-fullheight">
+            <aside id="colorlib-aside" className="border js-fullheight main">
                 <div className="text-center">
                     <div className="author-img" style={{ backgroundImage: 'url(images/about.jpg)' }} />
                     <h1 id="colorlib-logo"><a href="index.html">CHANDRA PRAKASH V </a></h1>
-                    <span className="email"><i className="icon-mail"></i> chandraprakashveluchamy@gmail.com</span>
+                    <span className="email"><FaMailBulk/> chandraprakashveluchamy@gmail.com</span>
                     <br></br>
                 </div>
                 <nav id="colorlib-main-menu" role="navigation" className="navbar">
