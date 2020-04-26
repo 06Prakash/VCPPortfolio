@@ -9,27 +9,27 @@ const Projects = () => (
             <span className="heading-meta font-size-maintainer">Projects</span>
             <div className="image">
                 <ProjectTemplate Title="Electronic Health Record – Oncology"
-                    Content="Tested the workflows related to the cancer treatment including the way regimen and drug order allocation and discontinuing the medication course if needed.Tested for creating new regimen, approving process and authorization.Administration of drugs to the patient, generating the infusion notes and nurse template, verifying each and every one of the document for precise data.Found and reported lot of critical issues including UTC Time zone issues, wrong drug level population etc.Got appreciation from product owner, managers and developers for deep level testing and high level of understanding product in short time duration."
+                    Content="Tested the workflows related to the cancer treatment including the medication course allocation and discontinuing them as needed.Tested each and every area for precise information.Found and reported lot of critical issues including patient safety issues, Time zone issues etc.Got appreciation from product owner, managers and developers for deep level testing and high level of understanding product in short time duration."
                     Role="Manual Tester"
                     Technology="C#, JavaScript">
                 </ProjectTemplate>
             </div>
             <div className="image">
-                <ProjectTemplate Title="Clinical – First Data Bank Integration"
-                    Content="A part of Electronic health record, to integrate FDB to database for US healthcare CCD certification. Tested for the allergies and current medication interaction with the regimen and drug order. Checked for the levels of interaction alert and raised as well as suggested the areas where even product owners missed. Got appreciated from Director Technology for handling the product testing smoothly with less resources"
+                <ProjectTemplate Title="Integrating EHR with Secured Medical database"
+                    Content="A part of Electronic health record Team work, to integrate big knowledge source for product improvement. Tested for the various workflows that alerts the medical practitioners about people health conditions. Checked for the levels of interaction alert and raised as well as suggested the areas where even product owners missed. Got appreciated from Director Technology for handling the product testing smoothly with less resources"
                     Role="Manual Tester"
                     Technology="C#, JavaScript">
                 </ProjectTemplate>
             </div>
             <div className="image">
-                <ProjectTemplate Title="Electronic Health Record – Smart Scheduler"
+                <ProjectTemplate Title="Scheduling process Improvement"
                     Content="Appointment scheduler with lot of functions that improve user experience. Handled more than 90% of the entire product testing and raised more than 200+ bugs single handedly. In very short time, created metrics and updated the leadership. Got the whole QA Team attention and appreciation for handling more than 30+ tasks in a period of 10days when team member got relieved due to health reasons. Got appreciated from Director, Manager and product owners for keeping the testing and product stable even when there is a lot of changes in the team"
                     Role="Manual Tester"
                     Technology="C#, JavaScript">
                 </ProjectTemplate>
             </div>
             <div className="image">
-                <ProjectTemplate Title="Dosage Team – Automation"
+                <ProjectTemplate Title="Automation Works"
                     Content="Automated the hotfix related test cases, stable areas related test cases etc. Took more tasks and completed them before deadlines. Guided the team to follow the best coding and provided lot of code check guidelines for the team. Created lot of simple tools that simplifies and reduces the manual effort of the entire team and improved their quality time."
                     Role="Automation Developer"
                     Technology="C#, JavaScript">
