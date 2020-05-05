@@ -29,7 +29,7 @@ const StaticSideDraw = () => (
                         <SocialIcon url="https://www.linkedin.com/in/vchandraprakash/" />
                         <SocialIcon url="http://www.hackerearth.com/@chandraprakashveluchamy"/>
 
-                    <p><small><i>Just for today, I will do my work honestly.</i></small></p>
+                    <p><small><i>Senior Software Engineer in Test, Instructor and Innovator</i></small></p>
                 </div>
             </aside>
         </div>
