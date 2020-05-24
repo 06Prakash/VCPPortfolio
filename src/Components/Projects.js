@@ -43,6 +43,13 @@ const Projects = () => (
                 </ProjectTemplate>
             </div>
             <div className="image">
+                <ProjectTemplate Title="IC-EHR-Navigations"
+                    Content="Created a product that helps in finding as well as documenting the existing navigations in our product page. This initiative is to reduce the meeting time to know about page navigations for Dev, QA and PO, By which they can spend their quality time for improving productivity."
+                    Role="Developer and Tester"
+                    Technology="C#, Entity Framework, SQL Server, ASP.net MVC framework">
+                </ProjectTemplate>
+            </div>
+            <div className="image">
                 <ProjectTemplate Title="Chrome Memory Usage tracker"
                     Content="Created a window application that can read the memory usage of any chrome tab under test eg: Facebook, youtube or any product. This tool will keep on tracking the total amount of memory that particular tab is consuming. Integrated this application with window toaster notification functionality and capable of working in background from window notification area. Provided with on hover option on icon to see the current memory consumption and start, stop and exit option in both the context menu as well as in window area. We can provide the total amount of threshold from our side, it will alert the user with popup as well as toast notification when that tab exceeds the threshold memory"
                     Role="Product Owner and Developer"

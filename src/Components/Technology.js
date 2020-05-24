@@ -17,6 +17,7 @@ const Technology = () => (
                 <h3>Languages</h3>
                 <ul>
                     <li>C#</li>
+                    <li>Ruby</li>
                     <li>Java</li>
                     <li>JavaScript</li>
                     <li>python</li>
@@ -33,6 +34,7 @@ const Technology = () => (
                     <li>Sublime Text editor</li>
                     <li>Android Studio</li>
                     <li>Jmeter</li>
+                    <li>Godot</li>
                 </ul>
             </div>
             </div>
