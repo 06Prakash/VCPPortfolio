@@ -14,12 +14,23 @@ const Timeline = () => (
                                 <div className="timeline-centered">
                                     <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                         <div className="timeline-entry-inner">
+                                            <div className="timeline-icon color-5">
+                                                <i className="icon-pen2" />
+                                            </div>
+                                            <div className="timeline-label">
+                                                <h3>Senior Software Engineer in Test - Fresh Works<span> 2020-Present</span></h3>
+                                                <p>Currently working in manual testing, automation script development with ruby and selenium, Jenkins and Github for code version and build management, Demonstrated how to setup sonarqube code analysis for github PR decoration using Sonar cloud. Currently in the process of exploring the pain points will create many new opportunities for improving productivity and quality in my current organization.</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                        <div className="timeline-entry-inner">
                                             <div className="timeline-icon color-1">
                                                 <i className="icon-pen2" />
                                             </div>
                                             <div className="timeline-label">
-                                                <h3>Senior Software Engineer in Test<span> 2017-present</span></h3>
-                                                <p>Currently, I joined as SDET and got promoted to SDET-2 at Integra Connect. I worked in different projects like PMS, Oncology, Automation Testing & Performance Testing. Here I also developed lot of tools for reducing manual works and improved productivity.</p>
+                                                <h3>Senior Software Engineer in Test - Integra Connect<span> 2017-2020</span></h3>
+                                                <p>I joined as SDET and got promoted to SDET-2. I worked in different projects like PMS, Oncology, Automation Testing & Performance Testing. Here I also developed lot of tools for reducing manual works and improved productivity.</p>
                                             </div>
                                         </div>
                                     </article>

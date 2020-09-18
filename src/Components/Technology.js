@@ -9,6 +9,7 @@ const Technology = () => (
                 <h3>DataBases</h3>
                 <ul>
                     <li>SQL</li>
+                    <li>mySQL</li>
                     <li>Oracle</li>
                 </ul>
             </div>
