@@ -8,6 +8,27 @@ const Projects = () => (
         <section className="colorlib-work" data-section="projects">
             <span className="heading-meta font-size-maintainer">Projects</span>
             <div className="image">
+                <ProjectTemplate Title="Freshworks Automation Works"
+                    Content="Automated the job boards project, account downgrade and upgrade process, location based hierarchy system automation are all automated from scratch. Also improved the existing automation function in the framework. Provided a lot of sessions  to improve the automation stability improvement and proper structuring of the test cases for easy scalability and trouble shooting in the future."
+                    Role="Automation Developer"
+                    Technology="Selenium, Rspec, Ruby">
+                </ProjectTemplate>
+            </div>
+            <div className="image">
+                <ProjectTemplate Title="Job Boards Integration"
+                    Content="This project is mainly focused on publishing the jobs to different available job boards including the job sponsoring, cancelling or pausing the job boards publications as and when needed. Tested areas related to republishing the job when needed and improving or closing the sponsorship for the job."
+                    Role="Manual Tester, white box tester, Automation developer"
+                    Technology="Ruby on rails, Ember js, Ruby, Rspec">
+                </ProjectTemplate>
+            </div>
+            <div className="image">
+                <ProjectTemplate Title="Applicant Tracking System"
+                    Content="This project is focused on the Applicants tracking system in any organization from Candidate applying to the job or candidate getting referred for the job stage to the completion of onboarding process. Tested each and every area from resume parsing to work checklists for every hiring manager, recruiters and Human resource and their related functionalities."
+                    Role="Manual Tester"
+                    Technology="Ruby on rails, Ember js">
+                </ProjectTemplate>
+            </div>
+            <div className="image">
                 <ProjectTemplate Title="Electronic Health Record – Oncology"
                     Content="Tested the workflows related to the cancer treatment including the medication course allocation and discontinuing them as needed.Tested each and every area for precise information.Found and reported lot of critical issues including patient safety issues, Time zone issues etc.Got appreciation from product owner, managers and developers for deep level testing and high level of understanding product in short time duration."
                     Role="Manual Tester"
