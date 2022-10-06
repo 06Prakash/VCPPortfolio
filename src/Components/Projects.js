@@ -2,6 +2,7 @@ import React from "react"
 import ProjectTemplate from "./HelperFunctions/ProjectTemplate"
 import ProjectData from "./projectData.json"
 import "./Css/Project.css"
+
 const Projects = () => (
     <div className="Container">
         <br />
