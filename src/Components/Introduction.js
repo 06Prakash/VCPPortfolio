@@ -15,7 +15,7 @@ const Introduction = () => {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1 style={{color: 'white'}}>Hi! This is <br />Chandra Prakash V</h1>
-                          <a className="btn btn-danger" href="https://drive.google.com/file/d/0B0Rrhy9iBAsASEF5aVR5UHllbGRKMFpmQnVhMmFRTUszOUMw/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV <FaDownload/></a>
+                          <a className="btn btn-danger" href="https://docs.google.com/document/d/1M8KsOo2KrOBcru5Ub5Y618uPcpHihhRL/edit?usp=sharing&ouid=105765862592509983012&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">View CV <FaDownload/></a>
                         </div>
                       </div>
                     </div>
