@@ -124,5 +124,12 @@
         "content": "Complete auditing of the entire Freshteam product from its core architecture to the entire product for a compliance work, Gone through lot of leadership meetings and collected configuration details, restricted permissions for deployments using AWS IAM, collected configurations for the Disaster recovery system and so on.",
         "role": "Site Reliability engineer, Tester",
         "technology": "AWS and few other internal tools"
+    },
+    {
+        "id": 19,
+        "title": "Root Cause Analysis report analyzer",
+        "content": "Developed mechanisms to collect all the failures based on failure messages, past occurrences, job names and test case id.From 61 different jobs, collected data and created a single google sheet with all the required data to find defects in recent deployment.Improved the time taken to complete the entire RCA process by making the new features to be tested with more accuracy and speed.Reduced the manual and redundant parallel work across Team members for RCA works.",
+        "role": "Developer, Tester",
+        "technology": "Ruby, Groovy"
     }
 ]
