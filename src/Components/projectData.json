@@ -124,5 +124,19 @@
         "content": "Complete auditing of the entire Freshteam product from its core architecture to the entire product for a compliance work, Gone through lot of leadership meetings and collected configuration details, restricted permissions for deployments using AWS IAM, collected configurations for the Disaster recovery system and so on.",
         "role": "Site Reliability engineer, Tester",
         "technology": "AWS and few other internal tools"
+    },
+    {
+        "id": 19,
+        "title": "Intake CI Automation",
+        "content": "I developed a system to ensure transparency in quality checks for each pull request (PR). This system collects all the necessary checks related to the task, such as PR, migration, Docker image checks, and more. The collected details are then provided in the task and PR, allowing for greater transparency up to the engineering managers and tech architecture level. This improvement has significantly enhanced the speed of deployment to production.",
+        "role": "Developer and Tester",
+        "technology": "Ruby, Groovy, AWS S3 bucket"
+    },
+    {
+        "id": 20,
+        "title": "RCA Analyzer",
+        "content": "I conceptualized, developed, and deployed an automated solution to analyze failures from a total of 61 scheduled jobs that run 15,000 automation cases every day. This solution has resulted in a significant reduction in the time taken to detect major issues related to recent intake items, reducing it from 12 hours to less than 1 hour.",
+        "role": "Developer and Tester",
+        "technology": "Ruby, Groovy, AWS S3 bucket"
     }
 ]
