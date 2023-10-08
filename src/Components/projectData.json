@@ -85,8 +85,8 @@
     },
     {
         "id": 13,
-        "title": "Freshworks Automation Works",
-        "content": "Automated the job boards project, account downgrade and upgrade process, location based hierarchy system automation are all automated from scratch. Also improved the existing automation function in the framework. Provided a lot of sessions  to improve the automation stability improvement and proper structuring of the test cases for easy scalability and trouble shooting in the future.",
+        "title": "Project Redemption",
+        "content": "Shown Proof of Concept on improving the automation runs stability, Provided a lot of sessions  to improve the automation stability improvement and proper structuring of the test cases for easy scalability and trouble shooting in the future. Raised the pass percentage from 35 % to 90 % for the entire modules in 9 months",
         "role": "Automation Developer",
         "technology": "Selenium, Rspec, Ruby"
     },
@@ -99,16 +99,44 @@
     },
     {
         "id": 15,
-        "title": "Automated Coverage report organizer and analyzer",
-        "content": "Provided the logic to group the rspec coverage report as per Team names and improved ownership across Teams, Also created the mechanism to raise and assign bugs to respective developers by extracting output of rspec run for every Pull requests, for this to maintain the security, performance and stability, engineered AWS S3 bucket, Jenkins pipeline job and simple ruby script together efficiently",
-        "role": "Developer and Tester",
-        "technology": "AWS S3 bucket, Jenkins, Github, Ruby" 
+        "title": "Unit Test run improvement",
+        "content": "Developed mechanisms to parallelize the unit test run using docker containers in Jenkins pipeline, this improved the time taken to complete the entire product unit test run from 1 hour 10 mins to 40 mins max.",
+        "role":"Developer and Tester",
+        "technology": "AWS S3 bucket, Jenkins, Github, Shell script"
     },
     {
         "id": 16,
+        "title": "Automated Coverage report organizer and analyzer",
+        "content": "Provided the logic to group the rspec coverage report as per Team names and improved ownership across Teams, Also created the mechanism to raise and assign bugs to respective developers by extracting output of rspec run for every Pull requests, for this to maintain the security, performance and stability, engineered AWS S3 bucket, Jenkins pipeline job and simple ruby script together efficiently",
+        "role": "Developer and Tester",
+        "technology": "AWS S3 bucket, Jenkins, Github, Ruby, Shell script" 
+    },
+    {
+        "id": 17,
+        "title": "Deployment Process improvement",
+        "content": "Integrated the product deployment process to the internal tool that prevent the direct code execution in any environment without proper approvals. This reduced the risk of accidental database updates or unacceptable data usages",
+        "role": "Developer",
+        "technology": "Ruby on rails, Github"
+    },
+    {
+        "id": 18,
         "title": "Auditing works",
         "content": "Complete auditing of the entire Freshteam product from its core architecture to the entire product for a compliance work, Gone through lot of leadership meetings and collected configuration details, restricted permissions for deployments using AWS IAM, collected configurations for the Disaster recovery system and so on.",
         "role": "Site Reliability engineer, Tester",
         "technology": "AWS and few other internal tools"
+    },
+    {
+        "id": 19,
+        "title": "Intake CI Automation",
+        "content": "I developed a system to ensure transparency in quality checks for each pull request (PR). This system collects all the necessary checks related to the task, such as PR, migration, Docker image checks, and more. The collected details are then provided in the task and PR, allowing for greater transparency up to the engineering managers and tech architecture level. This improvement has significantly enhanced the speed of deployment to production.",
+        "role": "Developer and Tester",
+        "technology": "Ruby, Groovy, AWS S3 bucket"
+    },
+    {
+        "id": 20,
+        "title": "RCA Analyzer",
+        "content": "I conceptualized, developed, and deployed an automated solution to analyze failures from a total of 61 scheduled jobs that run 15,000 automation cases every day. This solution has resulted in a significant reduction in the time taken to detect major issues related to recent intake items, reducing it from 12 hours to less than 1 hour.",
+        "role": "Developer and Tester",
+        "technology": "Ruby, Groovy, AWS S3 bucket"
     }
 ]
