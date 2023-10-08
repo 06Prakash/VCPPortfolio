@@ -46,7 +46,7 @@
         "title": "Automation Works",
         "content": "Automated the hotfix related test cases, stable areas related test cases etc. Took more tasks and completed them before deadlines. Guided the team to follow the best coding and provided lot of code check guidelines for the team. Created lot of simple tools that simplifies and reduces the manual effort of the entire team and improved their quality time.",
         "role": "Automation Developer",
-        "technology": "C#, JavaScript"
+        "technology": "C#, JavaScript, Selenium"
     },
     {
         "id": 8,
@@ -81,7 +81,7 @@
         "title": "Job Boards Integration",
         "content": "This project is mainly focused on publishing the jobs to different available job boards including the job sponsoring, cancelling or pausing the job boards publications as and when needed. Tested areas related to republishing the job when needed and improving or closing the sponsorship for the job.",
         "role": "Manual Tester, white box tester, Automation developer",
-        "technology": "Ruby on rails, Ember js, Ruby, Rspec"
+        "technology": "Ruby on rails, Ember js, Ruby, Rspec, Selenium"
     },
     {
         "id": 13,
@@ -95,7 +95,7 @@
         "title": "Pull request title validation",
         "content": "Created a simple check using github actions to ensure that the pull request titles are matching the standard names as expected, if not this will raise a github pull request check failure flag to notify the code reviewer.",
         "role": "Developer",
-        "technology": "Javascript, Github" 
+        "technology": "Javascript, Github actions" 
     },
     {
         "id": 15,
@@ -134,9 +134,9 @@
     },
     {
         "id": 20,
-        "title": "RCA Analyzer",
-        "content": "I conceptualized, developed, and deployed an automated solution to analyze failures from a total of 61 scheduled jobs that run 15,000 automation cases every day. This solution has resulted in a significant reduction in the time taken to detect major issues related to recent intake items, reducing it from 12 hours to less than 1 hour.",
-        "role": "Developer and Tester",
+        "title": "Root Cause Analysis report analyzer",
+        "content": "I developed mechanisms to efficiently collect and analyze failures based on failure messages, past occurrences, job names, and test case IDs. By gathering data from 61 different jobs, I created a comprehensive Google Sheet that contains all the necessary information to identify defects in recent deployments. This process significantly improved the time required for the root cause analysis (RCA) by enabling more accurate and faster testing of new features. Additionally, it helped in reducing manual and redundant parallel work among team members involved in RCA tasks.",
+        "role": "Developer, Tester",
         "technology": "Ruby, Groovy, AWS S3 bucket"
     }
 ]
