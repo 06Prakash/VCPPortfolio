@@ -130,7 +130,7 @@
         "title": "Intake CI Automation",
         "content": "I developed a system to ensure transparency in quality checks for each pull request (PR). This system collects all the necessary checks related to the task, such as PR, migration, Docker image checks, and more. The collected details are then provided in the task and PR, allowing for greater transparency up to the engineering managers and tech architecture level. This improvement has significantly enhanced the speed of deployment to production.",
         "role": "Developer and Tester",
-        "technology": "Ruby, Groovy, AWS S3 bucket"
+        "technology": "Ruby, Groovy, AWS S3 bucket, Github actions, Jenkins"
     },
     {
         "id": 20,
