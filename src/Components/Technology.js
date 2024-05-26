@@ -1,48 +1,52 @@
 import React from 'react';
-import "./Css/Technology.css"
+import "./Css/Technology.css";
+
 const Technology = () => (
-    <section className="colorlib-work" data-section="tech" style={{ marginLeft: "10%" }}>
-        <div>
-        <div className="first_div">
-            <h2><b>SOFTWARE PROFICIENCY</b></h2>
-            <div className="child_div">
-                <h3>DataBases</h3>
-                <ul>
-                    <li>SQL</li>
-                    <li>mySQL</li>
-                    <li>Oracle</li>
-                </ul>
+    <section id="tech" className="colorlib-work technology-section" data-section="tech">
+        <span className="heading-meta font-size-maintainer">Technologies</span>
+        <div className="technology-container">
+            <div className="section-header">
+                <h2><b>SOFTWARE PROFICIENCY</b></h2>
             </div>
-
-            <div className="child_div">
-                <h3>Languages</h3>
-                <ul>
-                    <li>C#</li>
-                    <li>Ruby</li>
-                    <li>Java</li>
-                    <li>JavaScript</li>
-                    <li>python</li>
-                    <li>Gdscript</li>
-                </ul>
+            <div className="proficiency-container">
+                <div className="proficiency-item">
+                    <h3>DataBases</h3>
+                    <ul>
+                        <li>SQL</li>
+                        <li>mySQL</li>
+                        <li>Oracle</li>
+                    </ul>
+                </div>
+                <div className="proficiency-item">
+                    <h3>Technology</h3>
+                    <ul>
+                        <li>Ruby</li>
+                        <li>Python</li>
+                        <li>AWS</li>
+                        <li>Docker</li>
+                        <li>C#</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>Gdscript</li>
+                    </ul>
+                </div>
+                <div className="proficiency-item">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Eclipse</li>
+                        <li>Visual Studio & VS Code</li>
+                        <li>Android Studio</li>
+                        <li>Jmeter</li>
+                        <li>Godot</li>
+                    </ul>
+                </div>
             </div>
-
-            <div className="child_div">
-                <h3>Tools</h3>
-                <ul>
-                    <li>Eclipse</li>
-                    <li>Visual Studio</li>
-                    <li>Brackets</li>
-                    <li>Sublime Text editor</li>
-                    <li>Android Studio</li>
-                    <li>Jmeter</li>
-                    <li>Godot</li>
-                </ul>
+            <div className="section-header">
+                <h2><b>Certifications</b></h2>
             </div>
-            </div>
-            <h2><b>Certifications</b></h2>
-            <div className="child_div2">
+            <div className="certifications-container">
                 <ul>
-                    <li style={{paddingTop: "15px"}}>OCJP 6 : Oracle Java Professional 6 Certificate</li>
+                    <li>OCJP 6 : Oracle Java Professional 6 Certificate</li>
                     <li>IBM DB2 Academic Associate : DB2 Database and Application Fundamentals</li>
                     <li>Master Diploma In Computer Administration</li>
                     <li>Honours Diploma In Computer Hardware And Networking</li>

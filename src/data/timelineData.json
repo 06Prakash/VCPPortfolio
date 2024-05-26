@@ -1,0 +1,59 @@
+[
+    {
+        "color": "timeline-icon color-6",
+        "icon": "faCode",
+        "title": "Lead Software Engineer in Test - Fresh Works",
+        "timeSpan": "2023-Present",
+        "content": "Currently working on improving the speed and frequency of deployments by improving the process around CI/CDs, Along with automation script development and guiding the Team to improve productivity and eliminate redundant manual works."
+    },
+    {
+        "color": "timeline-icon color-3",
+        "icon": "faCode",
+        "title": "Senior Software Engineer in Test - Fresh Works",
+        "timeSpan": "2020-Present",
+        "content": "Currently working in manual testing, automation script development with ruby and selenium, Jenkins and Github for code version and build management, Demonstrated how to setup sonarqube code analysis for github PR decoration using Sonar cloud. Currently in the process of exploring the pain points will create many new opportunities for improving productivity and quality in my current organization."
+    },
+    {
+        "color": "timeline-icon color-3",
+        "icon": "faClipboardCheck",
+        "title": "Senior Software Engineer in Test - Integra Connect",
+        "timeSpan": "2017-2020",
+        "content": "I joined as SDET and got promoted to SDET-2. I worked in different projects like PMS, Oncology, Automation Testing & Performance Testing. Here I also developed lot of tools for reducing manual works and improved productivity."
+    },
+    {
+        "color": "timeline-icon color-3",
+        "icon": "faServer",
+        "title": "Software Engineer in Test - Athena Health Care",
+        "timeSpan": "2015-2017",
+        "content": "In 2015, I joined as an intern for 3 months and after that I become a permanent employee. Here we worked in both manual and automation, used perl, ruby and java. Developed an ETL framework from scratch."
+    },
+    {
+        "color": "timeline-icon color-2",
+        "icon": "faShip",
+        "title": "Electro Technical Officer",
+        "timeSpan": "2014-2015",
+        "content": "I worked as an Electro Technical Officer Training for Merchant Navy in Chief Ahmed Ship in Gulf region. Took care of navigation system and maintaining electrical sensors in ship."
+    },
+    {
+        "color": "timeline-icon color-2",
+        "icon": "faShip",
+        "title": "Electro Technical Officer Training",
+        "timeSpan": "2013-2014",
+        "content": "I did my Electro Technical Officer Training for Merchant Navy in BP Marine Academy and stood first in the order of merit."
+    },
+    {
+        "color": "timeline-icon color-1",
+        "icon": "faGraduationCap",
+        "title": "BE graduation at KLNCE",
+        "timeSpan": "2009-2013",
+        "content": "I did my BE-graduation studies with major in EEE (Electrical and Electronics Engineering) in KLN College of Engineering with University Rank Holding. I was an active participated in lot of programming related projects and competitions and also completed 3 diplomas in parallel with BE degree."
+    },
+    {
+        "color": "timeline-icon color-1",
+        "icon": "faHighlighter",
+        "title": "Higher Secondary Education",
+        "timeSpan": "2007-2009",
+        "content": "I have completed my higher secondary education with major subjects as Physics, Chemistry Maths & Biology with 92 percent."
+    }
+]
+    

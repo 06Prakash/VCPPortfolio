@@ -1,4 +1,49 @@
-.container_div{
+/* KeySkills.css */
+
+.container_div {
     margin-bottom: 10%;
-    background-color:silver;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.colorlib-blog {
+    margin: 0;
+}
+
+.colorlib-blog h3 {
+    font-size: 2rem;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.colorlib-blog ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.colorlib-blog li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #555;
+    background-color: #fff;
+    margin-bottom: 1rem; /* Increased margin for better spacing */
+    padding: 1rem 1.5rem; /* Increased padding for better readability */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Added transform transition */
+}
+
+.colorlib-blog li:hover {
+    background-color: #e6e6e6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); /* Slight lift on hover */
 }

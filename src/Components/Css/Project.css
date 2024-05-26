@@ -1,8 +1,72 @@
-.Container{
-    background-color:thistle;
+/* Project.css */
+.Container {
+    background-color: #f9f9f9;
+    padding: 3rem 0;
+    max-width: 1200px; /* Increase the max-width to make it broader */
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
-.font-size-maintainer{
+
+.font-size-maintainer {
     font-weight: bolder;
-    font-size: 1.1em;
+    font-size: 3em;
     padding-left: 15px;
+    text-align: center;
+}
+
+.project-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.project-item.open .project-content {
+    display: block;
+}
+
+.project-item .project-content {
+    display: none;
+}
+
+.project-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.accordion-icon {
+    font-size: 1.5rem;
+    color: #777;
+    font-family: 'Roboto', sans-serif;
+}
+
+.project-content p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.project-role,
+.project-technology {
+    font-size: 1.5rem;
+    color: #777;
 }

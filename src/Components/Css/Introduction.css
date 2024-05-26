@@ -1,0 +1,68 @@
+/* Introduction.css */
+.js-fullheight {
+    height: 100vh;
+}
+
+.flexslider .slides li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(100, 100, 100, 0.6); /* Lighter overlay for better contrast */
+}
+
+.slider-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+    color: #fff;
+}
+
+.slider-text-inner {
+    max-width: 800px;
+    color: #FFF; /* Darker text color for better contrast */
+}
+
+.desc h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(239, 232, 232, 0.5); /* Add text shadow for better readability */
+}
+
+.desc a.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #ff6347; /* Vibrant button color */
+    border: none;
+    color: #fff; /* White text color */
+    transition: background-color 0.3s ease;
+}
+
+.desc a.btn:hover {
+    background-color: #ff4500; /* Darker shade on hover */
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 768px) {
+    .desc h1 {
+        font-size: 2rem;
+    }
+
+    .desc a.btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}

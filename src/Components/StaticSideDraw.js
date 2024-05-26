@@ -1,7 +1,7 @@
 import React from 'react';
-import "./Css/StaticSideDraw.css"
+import "./Css/StaticSideDraw.css";
 import { SocialIcon } from 'react-social-icons';
-import { FaMailBulk } from "react-icons/fa"
+import { FaMailBulk } from "react-icons/fa";
 
 const StaticSideDraw = () => (
     <div className="board">
@@ -10,8 +10,8 @@ const StaticSideDraw = () => (
             <aside id="colorlib-aside" className="border js-fullheight main">
                 <div className="text-center">
                     <div className="author-img" style={{ backgroundImage: 'url(images/about.jpg)' }} />
-                    <h1 id="colorlib-logo"><a href="index.html">CHANDRA PRAKASH V </a></h1>
-                    <span className="email"><FaMailBulk/> chandraprakashveluchamy@gmail.com</span>
+                    <h1 id="colorlib-logo"><a href="#home">CHANDRA PRAKASH V</a></h1>
+                    <span className="email"><FaMailBulk /> chandraprakashveluchamy@gmail.com</span>
                     <br></br>
                 </div>
                 <nav id="colorlib-main-menu" role="navigation" className="navbar">
@@ -26,9 +26,8 @@ const StaticSideDraw = () => (
                     </div>
                 </nav>
                 <div className="colorlib-footer">
-                        <SocialIcon url="https://www.linkedin.com/in/vchandraprakash/" />
-                        <SocialIcon url="http://www.hackerearth.com/@chandraprakashveluchamy"/>
-
+                    <SocialIcon url="https://www.linkedin.com/in/vchandraprakash/" className="social-icon" />
+                    <SocialIcon url="http://www.hackerearth.com/@chandraprakashveluchamy" className="social-icon" />
                     <p><small><i>Senior Software Engineer in Test, Instructor and Innovator</i></small></p>
                 </div>
             </aside>
