@@ -10,34 +10,39 @@ const Technology = () => (
             </div>
             <div className="proficiency-container">
                 <div className="proficiency-item">
-                    <h3>DataBases</h3>
-                    <ul>
-                        <li>SQL</li>
-                        <li>mySQL</li>
-                        <li>Oracle</li>
-                    </ul>
-                </div>
-                <div className="proficiency-item">
                     <h3>Technology</h3>
                     <ul>
                         <li>Ruby</li>
                         <li>Python</li>
                         <li>AWS</li>
+                        <li>Azure</li>
                         <li>Docker</li>
-                        <li>C#</li>
+                        <li>Jenkins</li>
+                        <li>K8s</li>
                         <li>Java</li>
                         <li>JavaScript</li>
-                        <li>Gdscript</li>
+                    </ul>
+                </div>
+                <div className="proficiency-item">
+                    <h3>DataBases</h3>
+                    <ul>
+                        <li>mySQL</li>
+                        <li>SQL</li>
+                        <li>Oracle</li>
                     </ul>
                 </div>
                 <div className="proficiency-item">
                     <h3>Tools</h3>
                     <ul>
-                        <li>Eclipse</li>
-                        <li>Visual Studio & VS Code</li>
-                        <li>Android Studio</li>
-                        <li>Jmeter</li>
-                        <li>Godot</li>
+                        <li>Terraform</li>
+                        <li>K9s</li>
+                        <li>Docker Desktop</li>
+                        <li>Podman</li>
+                        <li>Github Desktop</li>
+                        <li>Sequel Ace</li>
+                        <li>Chatgpt</li>
+                        <li>Copilot</li>
+                        <li>Gemini</li>
                     </ul>
                 </div>
             </div>
