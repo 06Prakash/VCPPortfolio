@@ -95,13 +95,13 @@
         "title": "Pull request title validation",
         "content": "Created a simple check using github actions to ensure that the pull request titles are matching the standard names as expected, if not this will raise a github pull request check failure flag to notify the code reviewer.",
         "role": "Developer",
-        "technology": "Javascript, Github actions" 
+        "technology": "Javascript, Github actions"
     },
     {
         "id": 15,
         "title": "Unit Test run improvement",
         "content": "Developed mechanisms to parallelize the unit test run using docker containers in Jenkins pipeline, this improved the time taken to complete the entire product unit test run from 1 hour 10 mins to 40 mins max.",
-        "role":"Developer and Tester",
+        "role": "Developer and Tester",
         "technology": "AWS S3 bucket, Jenkins, Github, Shell script"
     },
     {
@@ -109,7 +109,7 @@
         "title": "Automated Coverage report organizer and analyzer",
         "content": "Provided the logic to group the rspec coverage report as per Team names and improved ownership across Teams, Also created the mechanism to raise and assign bugs to respective developers by extracting output of rspec run for every Pull requests, for this to maintain the security, performance and stability, engineered AWS S3 bucket, Jenkins pipeline job and simple ruby script together efficiently",
         "role": "Developer and Tester",
-        "technology": "AWS S3 bucket, Jenkins, Github, Ruby, Shell script" 
+        "technology": "AWS S3 bucket, Jenkins, Github, Ruby, Shell script"
     },
     {
         "id": 17,
@@ -138,5 +138,19 @@
         "content": "I developed mechanisms to efficiently collect and analyze failures based on failure messages, past occurrences, job names, and test case IDs. By gathering data from 61 different jobs, I created a comprehensive Google Sheet that contains all the necessary information to identify defects in recent deployments. This process significantly improved the time required for the root cause analysis (RCA) by enabling more accurate and faster testing of new features. Additionally, it helped in reducing manual and redundant parallel work among team members involved in RCA tasks.",
         "role": "Developer, Tester",
         "technology": "Ruby, Groovy, AWS S3 bucket"
+    },
+    {
+        "id": 21,
+        "title": "Deployment Watcher",
+        "content": "Developed a tool using Python to improve deployment transparency by monitoring all microservice deployments across five regions and seven different microservices. The tool provides users with real-time control over deployments, notifies them in case of errors or when manual intervention is required, and can automatically handle predefined manual steps if configured. This solution streamlines deployment processes and enhances reliability across distributed environments.",
+        "role": "Developer",
+        "technology": "Python"
+    },
+    {
+        "id": 22,
+        "title": "Automated Regression Environment Framework",
+        "content": "Created a framework with multiple Jenkins pipelines and scripts to replicate a regression environment capable of creating 100+ jenkins jobs that can run automation for 20,000+ test cases within 2 hours. Managed 3,000+ account creations, handled secret management, and supported 8 different platform services. Enabled rapid replication of regression environments within a week. Utilized Jenkins, Groovy, Ruby, AWS, secret management tools, internal CI/CD tools, Kubernetes, Docker, Route53, and RDS. Troubleshot and fixed 6,000+ initial failures, collaborating with multiple teams.",
+        "role": "Developer and Automation Architect",
+        "technology": "Jenkins, Groovy, Ruby, AWS, Secret Management, CI/CD, Kubernetes, Docker, Route53, RDS"
     }
 ]
