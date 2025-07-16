@@ -16,7 +16,7 @@ const Introduction = () => {
                                         <div className="slider-text-inner">
                                             <div className="desc">
                                                 <h1>Hi! This is <br />Chandra Prakash V</h1>
-                                                <a className="btn btn-danger" href="https://docs.google.com/document/d/1M8KsOo2KrOBcru5Ub5Y618uPcpHihhRL/edit?usp=sharing&ouid=105765862592509983012&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">View CV <FaDownload /></a>
+                                                <a className="btn btn-danger" href="https://docs.google.com/document/d/1ozn1yFWu0JhejBmXvSzHG4vTe2E30mfzAQmo-iUCbwA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">View CV <FaDownload /></a>
                                             </div>
                                         </div>
                                     </div>
