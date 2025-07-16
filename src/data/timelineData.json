@@ -2,15 +2,15 @@
     {
         "color": "timeline-icon color-6",
         "icon": "faCode",
-        "title": "Lead Software Engineer in Test - Fresh Works",
+        "title": "Lead Devops Engineer - Fresh Works",
         "timeSpan": "2023-Present",
-        "content": "Currently working on improving the speed and frequency of deployments by improving the process around CI/CDs, Along with automation script development and guiding the Team to improve productivity and eliminate redundant manual works."
+        "content": "Developed deployment monitoring tools, automated regression environments, and CI/CD pipelines for large-scale microservices using Python, Jenkins, AWS, Kubernetes, and Docker, enabling rapid environment replication, real-time error handling, and collaboration across teams."
     },
     {
         "color": "timeline-icon color-3",
         "icon": "faCode",
         "title": "Senior Software Engineer in Test - Fresh Works",
-        "timeSpan": "2020-Present",
+        "timeSpan": "2020-2022",
         "content": "Currently working in manual testing, automation script development with ruby and selenium, Jenkins and Github for code version and build management, Demonstrated how to setup sonarqube code analysis for github PR decoration using Sonar cloud. Currently in the process of exploring the pain points will create many new opportunities for improving productivity and quality in my current organization."
     },
     {

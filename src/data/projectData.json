@@ -141,13 +141,27 @@
     },
     {
         "id": 21,
+        "title": "Automated OKR report generator",
+        "content": "I developed a system that automatically generates OKR reports for the entire team by aggregating data from multiple internal sources. The reports provide detailed insights at both the squad and theme levels, featuring bar charts to visualize SLA compliance for L2, L3, and L4 tickets, automation coverage, and unit test coverage. This automation significantly reduced manual reporting effort and improved the accuracy and consistency of OKR reports distributed to Leadership Teams.",
+        "role": "Developer and Tester",
+        "technology": "Python, Jenkins, Groovy, Docker"
+    }, 
+    {
+        "id": 22,
+        "title": "69 Tree Automation dependency matrix generator",
+        "content": "I built a system that automatically generates a dependency matrix for any code changes, whether at the module, submodule, or job level, including platform dependencies. The system aggregates relevant test cases from multiple internal sources and compiles a detailed matrix illustrating dependencies across project components. It can also create a test run with the necessary cases, update related tasks and create and push GitHub branches with the latest report and impacted run tags, enabling QAs to trigger the parent job and execute only the required tests without manual effort using the generated github branch. This automation has greatly reduced manual dependency management and improved the accuracy and consistency of reporting.",
+        "role": "Developer and Tester",
+        "technology": "Ruby, Freshrelease"
+    },
+    {
+        "id": 23,
         "title": "Deployment Watcher",
         "content": "Developed a tool using Python to improve deployment transparency by monitoring all microservice deployments across five regions and seven different microservices. The tool provides users with real-time control over deployments, notifies them in case of errors or when manual intervention is required, and can automatically handle predefined manual steps if configured. This solution streamlines deployment processes and enhances reliability across distributed environments.",
         "role": "Developer",
         "technology": "Python"
     },
     {
-        "id": 22,
+        "id": 24,
         "title": "Automated Regression Environment Framework",
         "content": "Created a framework with multiple Jenkins pipelines and scripts to replicate a regression environment capable of creating 100+ jenkins jobs that can run automation for 20,000+ test cases within 2 hours. Managed 3,000+ account creations, handled secret management, and supported 8 different platform services. Enabled rapid replication of regression environments within a week. Utilized Jenkins, Groovy, Ruby, AWS, secret management tools, internal CI/CD tools, Kubernetes, Docker, Route53, and RDS. Troubleshot and fixed 6,000+ initial failures, collaborating with multiple teams.",
         "role": "Developer and Automation Architect",
