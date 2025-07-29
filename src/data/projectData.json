@@ -1,170 +1,177 @@
 [
-    {
-        "id": 1,
-        "title": "Performance Framework Development",
-        "content": "Created a python script. Created Hybrid framework with both modular and data driven model from scratch. Developed page related functions with proper mappings of different controller, samplers, Post and pre processing scripts. Made the framework to support 300+ number of users stress at a time(Product needs to support only max of 300 users stress). Made the frame work capable of performing load test, stress test and soak test.",
-        "role": "Developer",
-        "technology": "Jmeter"
-    },
-    {
-        "id": 2,
-        "title": "Runner script for Performance",
-        "content": "Created a python script which is capable of running the script at a time with different loads of users. It is capable of supervising the jmeter  framework run and record errors in run and intelligently re-runs with same set of users if needed until it reaches the max threshold total runs. It also documents the data and group it according to the total users ran and product that got tested. This script drastically reduced manual work.",
-        "role": "Developer",
-        "technology": "Python, Jmeter"
-    },
-    {
-        "id": 3,
-        "title": "Automation Master Run - Window service",
-        "content": "Created a windows service from scratch that is capable of running automation run daily without any manual interventions. Installed the service to the RDP windows machine, made the service to be controlled from another remote DB like at what time it can run and where to store the data or we can start and stop the run as need. It also intelligently groups as well separate the list of test cases that are passed as well as failed in first run and rerun the failed case till the threshold times. This script drastically reduced manual work by listing out passed, failed and exempted cases for each runs and shooting out single mail to the entire QA team.",
-        "role": "Developer",
-        "technology": "C#, SQL Server"
-    },
-    {
-        "id": 4,
-        "title": "Chrome Memory Usage tracker",
-        "content": "Created a window application that can read the memory usage of any chrome tab under test eg: Facebook, youtube or any product. This tool will keep on tracking the total amount of memory that particular tab is consuming. Integrated this application with window toaster notification functionality and capable of working in background from window notification area. Provided with on hover option on icon to see the current memory consumption and start, stop and exit option in both the context menu as well as in window area. We can provide the total amount of threshold from our side, it will alert the user with popup as well as toast notification when that tab exceeds the threshold memory",
-        "role": "Product Owner and Developer",
-        "technology": "C#"
-    },
-    {
-        "id": 5,
-        "title": "IC-EHR-Navigations",
-        "content": "Created a product that helps in finding as well as documenting the existing navigations in our product page. This initiative is to reduce the meeting time to know about page navigations for Dev, QA and PO, By which they can spend their quality time for improving productivity.",
-        "role": "Developer and Tester",
-        "technology": "C#, Entity Framework, SQL Server, ASP.net MVC framework"
-    },
-    {
-        "id": 6,
-        "title": "Chrome response redirector for performance script development",
-        "content": "Since chrome browser wont store response data for a long time, I created this one. This is a chrome extension that actually redirects the chrome response, form data, request headers of post method related pages to the console log and keeps it stored there. Created minor python scripts that actually operates and modify the data in clipboard, so jmeter can directly accept the paste operation in post parameter or headers related to the selected samplers.",
-        "role": "Product Owner and Developer",
-        "technology": "C#, JavaScript"
-    },
-    {
-        "id": 7,
-        "title": "Automation Works",
-        "content": "Automated the hotfix related test cases, stable areas related test cases etc. Took more tasks and completed them before deadlines. Guided the team to follow the best coding and provided lot of code check guidelines for the team. Created lot of simple tools that simplifies and reduces the manual effort of the entire team and improved their quality time.",
-        "role": "Automation Developer",
-        "technology": "C#, JavaScript, Selenium"
-    },
-    {
-        "id": 8,
-        "title": "Scheduling process Improvement",
-        "content": "Appointment scheduler with lot of functions that improve user experience. Handled more than 90% of the entire product testing and raised more than 200+ bugs single handedly. In very short time, created metrics and updated the leadership. Got the whole QA Team attention and appreciation for handling more than 30+ tasks in a period of 10days when team member got relieved due to health reasons. Got appreciated from Director, Manager and product owners for keeping the testing and product stable even when there is a lot of changes in the team",
-        "role": "Manual Tester",
-        "technology": "C#, JavaScript"
-    },
-    {
-        "id": 9,
-        "title": "Integrating EHR with Secured Medical database",
-        "content": "A part of Electronic health record Team work, to integrate big knowledge source for product improvement. Tested for the various workflows that alerts the medical practitioners about people health conditions. Checked for the levels of interaction alert and raised as well as suggested the areas where even product owners missed. Got appreciated from Director Technology for handling the product testing smoothly with less resources",
-        "role": "Manual Tester",
-        "technology": "C#, JavaScript"
-    },
-    {
-        "id": 10,
-        "title": "Electronic Health Record – Oncology",
-        "content": "Tested the workflows related to the cancer treatment including the medication course allocation and discontinuing them as needed.Tested each and every area for precise information.Found and reported lot of critical issues including patient safety issues, Time zone issues etc.Got appreciation from product owner, managers and developers for deep level testing and high level of understanding product in short time duration.",
-        "role": "Manual Tester",
-        "technology": "C#, JavaScript"
-    },
-    {
-        "id": 11,
-        "title": "Applicant Tracking System",
-        "content": "This project is focused on the Applicants tracking system in any organization from Candidate applying to the job or candidate getting referred for the job stage to the completion of onboarding process. Tested each and every area from resume parsing to work checklists for every hiring manager, recruiters and Human resource and their related functionalities.",
-        "role": "Manual Tester",
-        "technology": "Ruby on rails, Ember js"
-    },
-    {
-        "id": 12,
-        "title": "Job Boards Integration",
-        "content": "This project is mainly focused on publishing the jobs to different available job boards including the job sponsoring, cancelling or pausing the job boards publications as and when needed. Tested areas related to republishing the job when needed and improving or closing the sponsorship for the job.",
-        "role": "Manual Tester, white box tester, Automation developer",
-        "technology": "Ruby on rails, Ember js, Ruby, Rspec, Selenium"
-    },
-    {
-        "id": 13,
-        "title": "Project Redemption",
-        "content": "Shown Proof of Concept on improving the automation runs stability, Provided a lot of sessions  to improve the automation stability improvement and proper structuring of the test cases for easy scalability and trouble shooting in the future. Raised the pass percentage from 35 % to 90 % for the entire modules in 9 months",
-        "role": "Automation Developer",
-        "technology": "Selenium, Rspec, Ruby"
-    },
-    {
-        "id": 14,
-        "title": "Pull request title validation",
-        "content": "Created a simple check using github actions to ensure that the pull request titles are matching the standard names as expected, if not this will raise a github pull request check failure flag to notify the code reviewer.",
-        "role": "Developer",
-        "technology": "Javascript, Github actions"
-    },
-    {
-        "id": 15,
-        "title": "Unit Test run improvement",
-        "content": "Developed mechanisms to parallelize the unit test run using docker containers in Jenkins pipeline, this improved the time taken to complete the entire product unit test run from 1 hour 10 mins to 40 mins max.",
-        "role": "Developer and Tester",
-        "technology": "AWS S3 bucket, Jenkins, Github, Shell script"
-    },
-    {
-        "id": 16,
-        "title": "Automated Coverage report organizer and analyzer",
-        "content": "Provided the logic to group the rspec coverage report as per Team names and improved ownership across Teams, Also created the mechanism to raise and assign bugs to respective developers by extracting output of rspec run for every Pull requests, for this to maintain the security, performance and stability, engineered AWS S3 bucket, Jenkins pipeline job and simple ruby script together efficiently",
-        "role": "Developer and Tester",
-        "technology": "AWS S3 bucket, Jenkins, Github, Ruby, Shell script"
-    },
-    {
-        "id": 17,
-        "title": "Deployment Process improvement",
-        "content": "Integrated the product deployment process to the internal tool that prevent the direct code execution in any environment without proper approvals. This reduced the risk of accidental database updates or unacceptable data usages",
-        "role": "Developer",
-        "technology": "Ruby on rails, Github"
-    },
-    {
-        "id": 18,
-        "title": "Auditing works",
-        "content": "Complete auditing of the entire Freshteam product from its core architecture to the entire product for a compliance work, Gone through lot of leadership meetings and collected configuration details, restricted permissions for deployments using AWS IAM, collected configurations for the Disaster recovery system and so on.",
-        "role": "Site Reliability engineer, Tester",
-        "technology": "AWS and few other internal tools"
-    },
-    {
-        "id": 19,
-        "title": "Intake CI Automation",
-        "content": "I developed a system to ensure transparency in quality checks for each pull request (PR). This system collects all the necessary checks related to the task, such as PR, migration, Docker image checks, and more. The collected details are then provided in the task and PR, allowing for greater transparency up to the engineering managers and tech architecture level. This improvement has significantly enhanced the speed of deployment to production.",
-        "role": "Developer and Tester",
-        "technology": "Ruby, Groovy, AWS S3 bucket, Github actions, Jenkins"
-    },
-    {
-        "id": 20,
-        "title": "Root Cause Analysis report analyzer",
-        "content": "I developed mechanisms to efficiently collect and analyze failures based on failure messages, past occurrences, job names, and test case IDs. By gathering data from 61 different jobs, I created a comprehensive Google Sheet that contains all the necessary information to identify defects in recent deployments. This process significantly improved the time required for the root cause analysis (RCA) by enabling more accurate and faster testing of new features. Additionally, it helped in reducing manual and redundant parallel work among team members involved in RCA tasks.",
-        "role": "Developer, Tester",
-        "technology": "Ruby, Groovy, AWS S3 bucket"
-    },
-    {
-        "id": 21,
-        "title": "Automated OKR report generator",
-        "content": "I developed a system that automatically generates OKR reports for the entire team by aggregating data from multiple internal sources. The reports provide detailed insights at both the squad and theme levels, featuring bar charts to visualize SLA compliance for L2, L3, and L4 tickets, automation coverage, and unit test coverage. This automation significantly reduced manual reporting effort and improved the accuracy and consistency of OKR reports distributed to Leadership Teams.",
-        "role": "Developer and Tester",
-        "technology": "Python, Jenkins, Groovy, Docker"
-    }, 
-    {
-        "id": 22,
-        "title": "69 Tree Automation dependency matrix generator",
-        "content": "I built a system that automatically generates a dependency matrix for any code changes, whether at the module, submodule, or job level, including platform dependencies. The system aggregates relevant test cases from multiple internal sources and compiles a detailed matrix illustrating dependencies across project components. It can also create a test run with the necessary cases, update related tasks and create and push GitHub branches with the latest report and impacted run tags, enabling QAs to trigger the parent job and execute only the required tests without manual effort using the generated github branch. This automation has greatly reduced manual dependency management and improved the accuracy and consistency of reporting.",
-        "role": "Developer and Tester",
-        "technology": "Ruby, Freshrelease"
-    },
-    {
-        "id": 23,
-        "title": "Deployment Watcher",
-        "content": "Developed a tool using Python to improve deployment transparency by monitoring all microservice deployments across five regions and seven different microservices. The tool provides users with real-time control over deployments, notifies them in case of errors or when manual intervention is required, and can automatically handle predefined manual steps if configured. This solution streamlines deployment processes and enhances reliability across distributed environments.",
-        "role": "Developer",
-        "technology": "Python"
-    },
-    {
-        "id": 24,
-        "title": "Automated Regression Environment Framework",
-        "content": "Created a framework with multiple Jenkins pipelines and scripts to replicate a regression environment capable of creating 100+ jenkins jobs that can run automation for 20,000+ test cases within 2 hours. Managed 3,000+ account creations, handled secret management, and supported 8 different platform services. Enabled rapid replication of regression environments within a week. Utilized Jenkins, Groovy, Ruby, AWS, secret management tools, internal CI/CD tools, Kubernetes, Docker, Route53, and RDS. Troubleshot and fixed 6,000+ initial failures, collaborating with multiple teams.",
-        "role": "Developer and Automation Architect",
-        "technology": "Jenkins, Groovy, Ruby, AWS, Secret Management, CI/CD, Kubernetes, Docker, Route53, RDS"
-    }
+  {
+    "id": 1,
+    "title": "Performance Framework Development",
+    "content": "Built a performance testing framework using JMeter supporting hybrid modular and data-driven approaches. Mapped controller logic and scripts for post/pre-processing to simulate 300+ concurrent users. Designed to support stress, load, and soak testing aligned with production benchmarks.",
+    "role": "DevOps Performance Engineer",
+    "technology": "JMeter, Python"
+  },
+  {
+    "id": 2,
+    "title": "Automated Performance Runner Script",
+    "content": "Developed a Python script to orchestrate JMeter runs with dynamic user loads. Enabled intelligent re-runs on failure, logged execution results, and grouped outcomes by load profiles. Reduced manual intervention and standardized performance benchmarking.",
+    "role": "Developer",
+    "technology": "Python, JMeter"
+  },
+  {
+    "id": 3,
+    "title": "CI Pipeline for Coverage Reporting",
+    "content": "Engineered a CI job to analyze and group coverage reports by team using RSpec data. Integrated with Jenkins and AWS S3 to assign failures to specific developers. Improved code quality visibility across squads and reduced CI triage time.",
+    "role": "DevOps Engineer",
+    "technology": "Ruby, Jenkins, AWS S3, Shell"
+  },
+  {
+    "id": 4,
+    "title": "Secure Medical DB Integration Testing",
+    "content": "Tested clinical alerts from secured medical databases (FDB). Validated severity levels, drug interactions, and physician-facing alerts. Earned recognition for deep domain insights.",
+    "role": "Tester",
+    "technology": "C#, JavaScript"
+  },
+  {
+    "id": 5,
+    "title": "EHR Oncology Workflow Testing",
+    "content": "Led QA for complex oncology medication workflows in an EHR system. Detected timezone bugs and critical patient-safety issues during regression.",
+    "role": "Tester",
+    "technology": "C#, JavaScript"
+  },
+  {
+    "id": 6,
+    "title": "Root Cause Analysis Report Automation",
+    "content": "Developed a pipeline and script set to aggregate failure data from 60+ Jenkins jobs. Automated RCA sheet generation via Google Sheets for faster defect triage and regression trend analysis.",
+    "role": "Developer",
+    "technology": "Ruby, Groovy, Jenkins, AWS S3"
+  },
+  {
+    "id": 7,
+    "title": "Intake CI Automation System",
+    "content": "Built a system that aggregated CI check statuses (migration, image, PR) into tasks and PRs. Improved release transparency and significantly reduced deployment delays.",
+    "role": "Developer",
+    "technology": "Ruby, Jenkins, GitHub Actions, AWS S3"
+  },
+  {
+    "id": 8,
+    "title": "Secure Deployment Guardrails",
+    "content": "Integrated validation layers within the deployment pipeline to prevent unauthorized changes or accidental SQL/data pushes. Enforced rule-based approval and security hygiene.",
+    "role": "DevOps Engineer",
+    "technology": "Ruby on Rails, GitHub"
+  },
+  {
+    "id": 9,
+    "title": "Unit Test Run Optimization",
+    "content": "Optimized unit test pipelines using Docker and parallel job execution. Reduced test execution time from 70 to 40 minutes while maintaining test integrity and traceability.",
+    "role": "DevOps Engineer",
+    "technology": "Docker, Jenkins, Shell Script"
+  },
+  {
+    "id": 10,
+    "title": "CI-Compliant Pull Request Title Validator",
+    "content": "Implemented a GitHub Actions workflow to enforce standardized PR titles across repositories. Automatically flags PRs with incorrect formatting, improving code hygiene and reviewer efficiency.",
+    "role": "Developer",
+    "technology": "JavaScript, GitHub Actions"
+  },
+  {
+    "id": 11,
+    "title": "Job Boards Integration Testing Automation",
+    "content": "Automated job publication flows to external job boards using RSpec and Selenium. Validated end-to-end workflows including republish, pause, and sponsor actions. Helped stabilize release testing cycles.",
+    "role": "Automation Developer",
+    "technology": "Ruby, RSpec, Selenium, Ember.js"
+  },
+  {
+    "id": 12,
+    "title": "Chrome Response Redirector Plugin",
+    "content": "Created a Chrome extension and clipboard manager to capture POST request payloads for JMeter test parameterization. Reduced test data prep time and improved test reliability.",
+    "role": "Developer",
+    "technology": "JavaScript, Python"
+  },
+  {
+    "id": 13,
+    "title": "IC-EHR Navigation Documenter",
+    "content": "Created a navigation tracker tool to map workflows in EHR systems, reducing onboarding time for QA and Dev teams. Integrated search and export functions for reuse.",
+    "role": "Developer & Tester",
+    "technology": "C#, ASP.NET MVC, Entity Framework, SQL Server"
+  },
+  {
+    "id": 14,
+    "title": "Chrome Memory Usage Tracker",
+    "content": "Engineered a lightweight system tray app to monitor Chrome tab memory consumption. Triggered toaster alerts when memory thresholds were crossed during automation runs.",
+    "role": "Product Owner & Developer",
+    "technology": "C#"
+  },
+  {
+    "id": 15,
+    "title": "Automation Master Runner (Windows Service)",
+    "content": "Built a background Windows service that triggers scheduled automation runs via DB-controlled flags. Aggregated pass/fail results, reran flaky cases, and emailed run summaries to stakeholders.",
+    "role": "Developer",
+    "technology": "C#, SQL Server, Windows Services"
+  },
+  {
+    "id": 16,
+    "title": "Project Redemption \u2013 Stability Engineering",
+    "content": "Restructured flaky test cases and introduced automation standards across modules. Increased test pass rates from 35% to 90% over 9 months by fixing core framework and flaky job issues.",
+    "role": "Automation Developer",
+    "technology": "Ruby, RSpec, Selenium"
+  },
+  {
+    "id": 17,
+    "title": "Deployment Process Improvement",
+    "content": "Integrated deployment processes into internal control tools to enforce approval checks before environment pushes. Reduced risks of unauthorized DB access and enabled rollback safety.",
+    "role": "DevOps Engineer",
+    "technology": "Ruby on Rails, GitHub"
+  },
+  {
+    "id": 18,
+    "title": "Auditing for Compliance and DR Readiness",
+    "content": "Led product-level audit covering DR planning, IAM restrictions, and architecture documentation. Worked with leadership to gather and validate configurations for compliance submissions.",
+    "role": "SRE & Compliance Auditor",
+    "technology": "AWS, IAM, Architecture Tools"
+  },
+  {
+    "id": 19,
+    "title": "Automated RCA Report Analyzer",
+    "content": "Developed tools to parse failure logs across 60+ jobs and aggregate into Google Sheets. Enabled faster triage and RCA documentation for defect tracking and regression impact.",
+    "role": "DevOps Engineer",
+    "technology": "Ruby, Groovy, AWS S3"
+  },
+  {
+    "id": 20,
+    "title": "Automated OKR Report Generator",
+    "content": "Built a CI tool to extract and visualize squad-level OKRs from automation and unit test data. Provided leadership with SLA and coverage reports via bar charts and trendlines.",
+    "role": "Developer",
+    "technology": "Python, Jenkins, Docker, Groovy"
+  },
+  {
+    "id": 21,
+    "title": "Intake Bot",
+    "content": "Developed a bot that analyses multiple CI checks related to the intake PR, and shown the failures in the ticket directly. This reduced the time spent on triaging CI failures and improved QA and developer productivity.",
+    "role": "DevOps Engineer and Lead",
+    "technology": "Ruby, GitHub Actions, Jenkins, Freshrelease, Groovy"
+  },
+  {
+    "id": 22,
+    "title": "Automerge Bot",
+    "content": "Created a bot that automatically merges PRs when intake bot reports that all the CI checks have passed and the related ticket has all the required information. This reduced the time spent on manual merges and improved the overall efficiency of the development process.",
+    "role": "DevOps Engineer and Lead",
+    "technology": "Ruby, GitHub Actions, Jenkins, Groovy, AWS S3, Google Sheets, Freshrelease"
+  },
+  {
+    "id": 23,
+    "title": "69 Tree Dependency Matrix Generator",
+    "content": "Built a system to dynamically compute test dependencies for code changes across jobs, modules, and stacks. Reduced redundant test runs and enabled one-click branch generation for targeted runs.",
+    "role": "DevOps Automation Lead",
+    "technology": "Ruby, Freshrelease, GitHub"
+  },
+  {
+    "id": 24,
+    "title": "Automated Regression Environment Framework",
+    "content": "Designed an end-to-end regression environment automation framework using Jenkins, AWS, and Kubernetes. Supported 20,000+ test cases, 3,000+ dynamic accounts, and 8 platforms. Enabled one-click environment cloning, slashing setup time from weeks to hours.",
+    "role": "Lead DevOps Architect",
+    "technology": "Jenkins, Groovy, Ruby, AWS, Kubernetes, Docker"
+  },
+  {
+    "id": 25,
+    "title": "Deployment Watcher",
+    "content": "Built a Python-based deployment monitor for 7+ microservices across multiple regions. Enabled live deployment visibility, error detection, manual step automation, and Slack notifications. Streamlined DevOps flow and improved incident response.",
+    "role": "DevOps Engineer",
+    "technology": "Python, Slack API"
+  }
 ]
