@@ -51,6 +51,10 @@ const Technology = () => (
             </div>
             <div className="certifications-container">
                 <ul>
+                    <li>Kubernetes: Package Management with Helm</li>
+                    <li>Kubernetes: Monitoring with Prometheus</li>
+                    <li>Learn Kubernetes from Linkedin</li>
+                    <li>Terraform Beginner to Advanced - Using Google Cloud Platform</li>
                     <li>OCJP 6 : Oracle Java Professional 6 Certificate</li>
                     <li>IBM DB2 Academic Associate : DB2 Database and Application Fundamentals</li>
                     <li>Master Diploma In Computer Administration</li>
