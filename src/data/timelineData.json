@@ -1,9 +1,16 @@
 [
     {
         "color": "timeline-icon color-6",
+        "icon": "faLaptopCode",
+        "title": "Lead DevOps Consultant - Equal Experts",
+        "timeSpan": "2025-Present",
+        "content": "Will be working as Lead DevOps Consultant in Equal Experts from October 2025. Expect updates soon."
+    },
+    {
+        "color": "timeline-icon color-5",
         "icon": "faCode",
         "title": "Lead Devops Engineer - Fresh Works",
-        "timeSpan": "2023-Present",
+        "timeSpan": "2023-2025",
         "content": "Developed deployment monitoring tools, automated regression environments, and CI/CD pipelines for large-scale microservices using Python, Jenkins, AWS, Kubernetes, and Docker, enabling rapid environment replication, real-time error handling, and collaboration across teams."
     },
     {
